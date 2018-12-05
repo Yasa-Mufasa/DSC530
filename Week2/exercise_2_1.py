@@ -14,21 +14,21 @@ print(question1)
 '''
 Add two numbers together
 '''
-print('Add two numbers together')
+print('\nAdd two numbers together')
 print('1 + 5')
 print(1+5)
 
 '''
 Subtract a number from another number
 '''
-print('Subtract a number from another number')
+print('\nSubtract a number from another number')
 print('10 - 15')
 print(10-15)
 
 '''
 Multiply two numbers
 '''
-print('Multiply two numbers')
+print('\nMultiply two numbers')
 print('7 * 6')
 print(7 * 6)
 
@@ -36,7 +36,7 @@ print(7 * 6)
 Divide between two numbers
 '''
 # I'm going to do division using both ints and floats to display the differences
-print('Divide between two numbers')
+print('\nDivide between two numbers')
 print('5/3')
 print(5/3)
 print('5.0/3')
@@ -45,7 +45,7 @@ print(5.0/3)
 '''
 Concatenate two strings together (any words)
 '''
-print('Concatenate two strings together (any words)')
+print('\nConcatenate two strings together (any words)')
 print("any " + "words")
 word1 = "any "
 word2 = 'words'
@@ -55,20 +55,20 @@ print('any' + 'words')
 '''
 create a list of 4 items (can be strings, numbers, both)
 '''
-print('create a list of 4 items (can be strings, numbers, both)')
+print('\ncreate a list of 4 items (can be strings, numbers, both)')
 randomness = [42, 'So long and thanks for all the fish', 'resistance is useless', 'improbability']
 print(randomness)
 
 '''
 append an item to your list (again, can be a string, number)
 '''
-print('append an item to your list (again, can be a string, number)')
+print('\nappend an item to your list (again, can be a string, number)')
 randomness.append("Don't Panic")
 print(randomness)
 
 '''
 Create a tuple with 4 items (can be strings, numbers, both)
 '''
-print('Create a tuple with 4 items (can be strings, numbers, both)')
+print('\nCreate a tuple with 4 items (can be strings, numbers, both)')
 tup = (1, 'test', 3, 'random')
 print(tup)
